@@ -21,3 +21,5 @@
   5. Now start the localhost server
       - $ python manage.py runserver 
 	  On browser : http://127.0.0.1:8000/
+
+HTML file : https://github.com/imvickykumar999/Personal-Portfolio-in-Django/blob/master/Personal-Portfolio-Django/portfolio/templates/home.html
