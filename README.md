@@ -10,7 +10,7 @@
 
 # Run On Your Machine?
   1. Firstly, clone the repository using the git shell 
-      - $ git clone 
+      - $ git clone https://github.com/imvickykumar999/Personal-Portfolio-in-Django.git
   2. Goto the base directory of the project 
      - cd portfolio 
   3. Create a virtual environment and activate it. 
