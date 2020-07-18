@@ -1,5 +1,9 @@
 # Personal-Portfolio-in-Django
 
+LinkedIn Post :
+--------------
+https://www.linkedin.com/feed/update/urn:li:ugcPost:6690227749170225152/
+
 # My Personal Portfolio
   A Django based personal portfolio website.
 
