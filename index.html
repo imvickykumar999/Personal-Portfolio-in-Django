@@ -1,0 +1,497 @@
+{% load static %}
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <title>Vicky's Resume</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive Resume/CV／Portfolio Template">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="{% static 'plugins/bootstrap/css/bootstrap.min.css' %}">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="{% static 'plugins/font-awesome/css/font-awesome.css' %}">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="{% static 'css/styles-14.css' %}">
+    <link id="theme-style" rel="stylesheet" href="{% static 'css/custom.css' %}">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="top-bar container-fluid">
+            <!--<div class="actions">
+                <a class="btn hidden-xs" href="mailto:someone@example.com"><i class="fa fa-paper-plane" aria-hidden="true"></i> Hire Me</a>
+                <a class="btn" href="#"><i class="fa fa-download" aria-hidden="true"></i> Download My Resume</a>
+            </div>--><!--//actions-->
+            <ul class="social list-inline">
+                <li><a href="https://www.linkedin.com/in/vicky-kumar-433542190/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="https://twitter.com/Vickyku27424662"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCCCMOhooI8821rauAVZQwbA"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCWaXTlc-ECnQz4JHKg1KfAw"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.yourquote.in/vicky-kumar-bagzz/quotes"><i class="fa fa-quote-right" aria-hidden="true"></i></a></li> 
+                            <li><a href="https://www.sololearn.com/Profile/8044164/"><i class="fa fa-code" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.sololearn.com/Profile/12699769/"><i class="fa fa-terminal" aria-hidden="true"></i></a></li>
+                            <li><a href="https://github.com/imvickykumar999"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.instagram.com/imvickykumar999/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.facebook.com/Imvickykumar999/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.instagram.com/vickykumar2493/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="https://medium.com/@imvickykumar999"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
+            </ul><!--//social-->
+        </div><!--//top-bar-->
+
+        <div class="intro">
+            <div class="container text-center">
+                <img class="profile-image" src="{% static 'images/mk2.jpeg' %}" alt="Vicky's profile image">
+                <h1 class="name">Vicky Kumar</h1>
+                <div class="title">Python Developer </div>
+                <div class="profile">
+                    <p>Lover of innovation and everything related to generate new knowledge, and not only that, but share it with the community. Face problems with a smile and solve them as soon as possible. Excellent interpersonal relationships. Believer that when problems arise the team should focus on finding a solution, instead of blame someone.</p>
+                </div><!--//profile-->
+            </div><!--//container-->
+        </div><!--//intro-->
+
+        <div class="contact-info">
+            <div class="container text-center">
+                <ul class="list-inline">
+                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto:imvickykumar999@gmail.com">imvickykumar999@gmail.com</a></li>
+                    <li><i class="fa fa-phone"></i> <a href="tel: +918239957923">+918239957923</a></li>
+                    <li class="website"><i class="fa fa-globe"></i><a href="https://imvickykumar999.wixsite.com/website">imvickykumar999.wixsite</a></li>
+                </ul>
+            </div><!--//container-->
+        </div><!--//contact-info-->
+
+        <div class="page-nav-space-holder hidden-xs">
+            <div id="page-nav-wrapper" class="page-nav-wrapper text-center">
+                <div class="container">
+                    <ul id="page-nav" class="nav page-nav list-inline">
+                        <li><a class="scrollto" href="#experiences-section">Experiences</a></li>
+                        <li><a class="scrollto" href="#education-section">Education</a></li>
+                        <li><a class="scrollto" href="#skills-section">Skills</a></li>
+                        <li><a class="scrollto" href="#testimonials-section">Testimonials</a></li>
+                        <li><a class="scrollto" href="#portfolio-section">Portfolio</a></li>
+                        <li><a class="scrollto" href="#contact-section">Contact</a></li>
+                    </ul><!--//page-nav-->
+                </div>
+            </div><!--//page-nav-wrapper-->
+        </div>
+
+    </header><!--//header-->
+
+    <div class="wrapper container">
+        <section id="experiences-section" class="experiences-section section">
+            <h2 class="section-title">Work Experiences</h2>
+            <div class="timeline">
+                <div class="item">
+                    <div class="work-place">
+                        <h3 class="place"><b>Rajasthan Institute of Engineering and Technology, Jaipur</b></h3>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Jaipur, Rajasthan</div>
+                    </div>
+                    <div class="job-meta">
+                        <div class="title">Student </div>
+                        <div class="title">Engineer </div>
+                        <div class="time">June, 2019- Present</div>
+                    </div><!--//job-meta-->
+                    <div class="job-desc">
+                        <p>As an Student I am Learning Python:</p>
+                        <ul>
+                          <li>Software development. The main objective is to develop software using Python  .</li>
+                          <li>Application development. The main objective is to develop applications using Python. </li>
+                          <li>Web Development. The main objective is to develop websites using Python </li>
+                        </ul>
+                    </div><!--//job-desc-->
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="work-place">
+                        <p>
+                            <h3 class="place"><b>Rajasthan Institute of Engineering and Technology, Jaipur</b></h3>
+                        </p>
+                        <div class="location">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>Jaipur, Rajasthan</div>
+                    </div>
+                    <div class="job-meta">
+                        <div class="title">Intern of AI, ML at RIET</div>
+                        <div class="time">May, 2019 - August,2019</div>
+                    </div>
+                    <!--//job-meta-->
+                    <div class="job-desc">
+                        <p>Completed Internship on Python .
+                            Worked as an Intern to develop PC application using Python.</p
+                        <p>Technologies and Language used:</p>
+                        <ul>
+                            <li>Python</li>
+                            <li>Firebase</li>
+                            <li>C++</li>
+                            <li>C</li>
+                            <li>HTML</li>
+                            <li>JavaScript</li>
+                            <li>CSS</li>
+                            <li>PHP</li>
+                            <li>SQL</li>
+                            <li>Android</li>
+                            <li>WebApp</li>
+                            <li>SqlLite</li>
+                            <li>Java</li>
+                            <li>Xml</li>
+                            
+                        </ul>
+                    </div>
+                    <!--//job-desc-->
+                </div><!--//item-->
+
+               
+
+            </div><!--//timeline-->
+
+        </section><!--//section-->
+
+        <section id="education-section" class="education-section section">
+            <h2 class="section-title">Education</h2>
+            <div class="row">
+                <div class="item col-xs-12 col-sm-4">
+                    <div class="item-inner">
+                        <h3 class="degree">B.Tech in Computer Science Engineering</h3>
+                        <div class="education-body"><br>
+                           Rajasthan Institute of Engineering and Technology, Jaipur
+                        </div><!--//education-body-->
+                        <div class="time">2018 - 2022</div>
+                        <div class="desc">
+                            Rajasthan Institute of Engineering and Technology in Jaipur
+                         Pursuing B.Tech in Computer Science Engineering. Maintaining above 8.5 SGPA in every semester of college academic.
+                        </div>
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+               
+                <div class="item col-xs-12 col-sm-4">
+                    <div class="item-inner">
+                        <h3 class="degree">High School</h3>
+                        <div class="education-body"><br>
+                           Jawahar Navodaya Vidyalaya, Gautam Budh Nagar
+                        </div><!--//education-body-->
+                        <div class="time">2013 - 2017</div>
+                        <div class="desc">
+                          The High School was mainly focus on the bases of English and Computer Science. There was also a good base on Physics, Mathematics and Chemistry.
+                        </div>
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+
+                <div class="item col-xs-12 col-sm-4">
+                        <div class="item-inner">
+                            <h3 class="degree">School</h3>
+                            <div class="education-body"><br>
+                                    Sanathan Dharam Vidya Mandir School, Noida
+                            </div><!--//education-body-->
+                            <div class="time">2010 - 2013</div>
+                            <div class="desc">
+                              The Secondary aims at Maths , English , Science, Social Science, Litrature and Music. 
+                            </div>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+
+            </div><!--//row-->
+        </section><!--//section-->
+
+
+        <section id="skills-section" class="skills-section section text-center">
+            <h2 class="section-title">Professional Skills</h2>
+            <div class="top-skills">
+                <h3 class="subtitle">Top Skills</h3>
+                <div class="row">
+                    <div class="item col-xs-12 col-sm-4">
+                        <div class="item-inner">
+                            <h4 class="skill-name">Python &amp; Django</h4>
+                            <div class="level">Medium, 1 years</div>
+                            <div class="desc">
+                                I've been working with Python from 1 year, developing technologies from standalone application. Also completed School projects on C++ and C.
+                            </div>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                    <div class="item col-xs-12 col-sm-4">
+                        <div class="item-inner">
+                            <h4 class="skill-name">Java</h4>
+                            <div class="level">Medium, 6 months</div>
+                            <div class="desc">
+                                Started as a hobbie, then it was a mandatory course in B.Tech sem 5. Then completed various projects in academics and few projects as assignment on online platforms.
+                            </div>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                    <div class="item col-xs-12 col-sm-4">
+                        <div class="item-inner">
+                            <h4 class="skill-name">HTML5, CSS, Javascript</h4>
+                            <div class="level">Basics, 2 months</div>
+                            <div class="desc">
+                                I've been working with web technologies since 2 months, when I tried my first live project to make Portfolio website.<br> <b>Mr. Vicky Kumar</b>.My Worsksample is  <br> <a href="https://www.yourquote.in/vicky-kumar-bagzz/quotes">My YourQuote Website</a>
+                            </div>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                </div><!--//row-->
+            </div><!--//top-skills-->
+
+            <div class="other-skills">
+                <h3 class="subtitle">Other Skills</h3>
+                <div class="misc-skills">
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">PHP</span>
+                    <span class="skill-tag">C</span>
+                    <span class="skill-tag">C++</span>
+                  
+                    <br>
+                    
+                    <span class="skill-tag">Android</span>
+                    <span class="skill-tag">MYSQL</span>
+                    <span class="skill-tag">Firebase</span>
+                    <span class="skill-tag">Git</span>
+                   
+                    
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">Sqlite</span>
+                </div>
+            </div><!--//other-skills-->
+
+        </section><!--//skills-section-->
+
+        <section id="testimonials-section" class="testimonials-section section">
+            <h2 class="section-title">Recommendations</h2>
+
+            <div id="testimonials-carousel" class="testimonials-carousel carousel slide" data-interval="8000">
+
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#testimonials-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#testimonials-carousel" data-slide-to="1"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <blockquote class="quote">
+                            <i class="fa fa-quote-left"></i>
+                            <p>An excellent partner, developer and friend. We've worked together for live project Portfolio website 2018, participating in several positions in the Software Development field and side projects.</p>
+                            <p>He is creative, curious, innovative, responsible and quite a rational thinker. Coding as a way of life, his work presents products with great quality, following standards and good practices.</p>
+                            <p>Also passionate, confident, cheerful and respectful. His leadership quality moves people forward toward achieving the team's goals.</p>
+                        </blockquote>
+                        <div class="source">
+                            <div class="name">Ankit Malpani</div>
+                            <div class="position">Computer Science Engineer, Rajasthan Institute of Engineering and Technology, Jaipur</div>
+                        </div><!--//source-->
+
+                    </div><!--//item-->
+                    <div class="item">
+                        <blockquote class="quote">
+                            <p><i class="fa fa-quote-left"></i>
+                              Vicky is a really good working partner with high knowledge on backend development, he is always concerned with going forward never afraid of improving or making use of new technologies, helping his peers whenever he is able to and solving problems in a quick and efficient manner with his typical optimism</p>.<p>Saying from personal Experience when we worked on project togather for 2 years.</p>
+                        </blockquote>
+                        <div class="source">
+                            <div class="name">Sagar Jangid</div>
+                            <div class="position">Computer Science Engineer, Rajasthan Institute of Engineering and Technology, Jaipur</div>
+                        </div><!--//source-->
+
+                    </div><!--//item-->
+
+                </div><!--//carousel-inner-->
+            </div><!--//testimonials-carousel-->
+
+        </section><!--//section-->
+
+
+        <section id="portfolio-section" class="portfolio-section section">
+            <h2 class="section-title">Projects on LinkedIn</h2>
+            <ul id="filters" class="filters clearfix">
+                <li class="type active" data-filter="*">All</li>
+                <li class="type" data-filter=".backend">Back-end</li>
+                <li class="type" data-filter=".frontend">Front-end</li>
+            </ul><!--//filters-->
+            <div class="items-wrapper isotope row">
+                    <div class="item backend frontend col-md-4 col-xs-8 ">
+                    <div class="item-inner">
+                        <figure class="figure">
+                            <img class="img-responsive" src="{% static 'images/portfolio/project1.png' %}" alt="" />
+                        </figure>
+                        <div class="content text-left">
+                            <h3 class="sub-title"><a href="https://www.linkedin.com/feed/update/urn:li:activity:6689137700320108544/">Funny Face</a></h3>
+                            <div class="meta"><u> Technology used : Coding in Python, OpenCV</u><br><br>
+                                Funny Face Project is coded using OpenCV, using 2D projection of 3D Plane Equation on Camera Image. 
+                               <br><br> Few Projection are used, must TRY once.
+                                    </div>
+                         
+                           
+                            <div class="action"><a href="https://www.linkedin.com/feed/update/urn:li:activity:6689137700320108544/">View on LinkedIn</a></div>
+                        </div><!--//content-->
+                        <a class="link-mask" href="https://www.linkedin.com/feed/update/urn:li:activity:6689137700320108544/"></a>
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+                <div class="item backend frontend col-md-4 col-xs-8 ">
+                    <div class="item-inner">
+                        <figure class="figure">
+                            <img class="img-responsive" src="{% static 'images/portfolio/p2.jpg' %}" alt="" />
+                        </figure>
+                        <div class="content text-left">
+                            <h3 class="sub-title"><a href="https://www.linkedin.com/feed/update/urn:li:activity:6686888165464145920/">Instagram Grid Maker</a></h3>
+                            <div class="meta"><u>Technology used : Coding in Python, Jupyter NoteBook</u><br><br>
+                                Working : It accepts a image, finds minimum dimension, crops central part of image, asks for n*n grid, splits image into n*n individual photos, then login to account and a for loop is run to upload photos in a manner last upload first to look complete image as one ;)
+                                </div>
+                            
+                            
+                            <div class="action"><a href="https://www.linkedin.com/feed/update/urn:li:activity:6686888165464145920/">View on LinkedIn</a></div>
+                        </div><!--//content-->
+                        <a class="link-mask" href="https://www.linkedin.com/feed/update/urn:li:activity:6686888165464145920/"></a>
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+                <div class="item backend frontend col-md-4 col-xs-8 ">
+                    <div class="item-inner">
+                        <figure class="figure">
+                            <img class="img-responsive" src="{% static 'images/portfolio/p3.png' %}" alt="" />
+                        </figure>
+                        <div class="content text-left">
+                            <h3 class="sub-title"><a href="https://www.linkedin.com/feed/update/urn:li:activity:6669185585778966528/">Chatting Socket</a></h3>
+                            <div class="meta"><u>Technology used : Coding in Python</u><br><br>
+                                Working :
+( Both PC must be connected with Mobile Hotspot.... )
+
+First run server.py in cmd of PC1 and it will show device IP in first line, then, run client.py in cmd of PC2 and it will ask for IP, just fill IP which is shown in cmd of server.py, then your Nickname, and you are now Connected to start Chatting.
+
+Both, server.py and client.py files can be run on same Laptop too.... no problem !!!</div>
+                                <br>
+                            
+                            <div class="action"><a href="https://www.linkedin.com/feed/update/urn:li:activity:6669185585778966528/">View on LinkedIn</a></div>
+                        </div><!--//content-->
+                        <a class="link-mask" href="https://www.linkedin.com/feed/update/urn:li:activity:6669185585778966528/"></a>
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+               
+               <!--//item-->
+                <div class="item backend col-md-4 col-xs-8 ">
+                    <div class="item-inner">
+                        <figure class="figure">
+                            <img class="img-responsive" src="{% static 'images/portfolio/p4.png' %}" alt="" />
+                        </figure>
+                        <div class="content text-left">
+                            <h3 class="sub-title"><a href="https://www.linkedin.com/feed/update/urn:li:activity:6669916565254868992/">Virtual-Mouse</a></h3>
+                            <div class="meta"><u> Coding in Python</u><br><br>
+                                Virtual-Mouse is a project which controls mouse arrow virtually.
+                                Mid-point of two green pointer is position of mouse arrow on desktop.
+                                When distance between two green pointer is zero left button of mouse is clicked, and released after it becomes non-zero.
+                                <br>Also I have taken reference for this project from udemy.</div>
+                            <br><br><br><br><br>
+                            <div class="meta"></div>
+                            <div class="action"><a href="https://www.linkedin.com/feed/update/urn:li:activity:6669916565254868992/">View on LinkedIn</a></div>
+                        </div><!--//content-->
+                        <a class="link-mask" href="https://www.linkedin.com/feed/update/urn:li:activity:6669916565254868992/"></a>
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+
+                <div class="item frontend col-md-4 col-xs-8 ">
+                    <div class="item-inner">
+                        <figure class="figure">
+                            <img class="img-responsive" src="{% static 'images/portfolio/p8.png' %}" alt="" />
+                        </figure>
+                        <div class="content text-left">
+                            <h3 class="sub-title"><a href="https://www.linkedin.com/feed/update/urn:li:activity:6663829047774187520/">MNIST-SCANNER</a></h3>
+                            <div class="meta"><u> Coding in Python</u><br><br>
+                                This Project can Sense Image using Camera and read number written.
+                                OpenCV is used to capture image.
+                                Machine Learning Algorithm called Keras is used to train Numbers in photo format.<br>
+                                </div>
+                           
+                            <div class="action"><a href="https://www.linkedin.com/feed/update/urn:li:activity:6663829047774187520/">View on LinkedIn</a></div>
+                        </div><!--//content-->
+                        <a class="link-mask" href="https://www.linkedin.com/feed/update/urn:li:activity:6663829047774187520/"></a>
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+
+                <div class="item frontend backend col-md-4 col-xs-8 ">
+                    <div class="item-inner">
+                        <figure class="figure">
+                            <img class="img-responsive" src="{% static 'images/portfolio/p6.jpeg' %}" alt="" />
+                        </figure>
+                        <div class="content text-left">
+                            <h3 class="sub-title"><a href="https://www.linkedin.com/feed/update/urn:li:activity:6649993470331191296/">Invisibility Cloak</a></h3>
+                            <div class="meta"><u> Coding in Python</u><br><br>
+                                    ‘Invisibility Cloak’ using simple computer vision techniques in OpenCV. Here we have written this code in Python because it provides exhaustive and sufficient library to build this program.
+Here, we will create this magical experience using an image processing technique called Color detection and segmentation.
+                            </div>
+                            
+                            <div class="action"><a href="https://www.linkedin.com/feed/update/urn:li:activity:6649993470331191296/">View on LinkedIn</a></div>
+                        </div><!--//content-->
+                        <a class="link-mask" href="https://www.linkedin.com/feed/update/urn:li:activity:6649993470331191296/"></a>
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+
+            </div><!--//item-wrapper-->
+
+        </section><!--//section-->
+
+        <section id="contact-section" class="contact-section section">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="intro">
+                <img class="profile-image" src="{% static 'images/mk2.jpeg' %}" alt="Vicky's profile image">
+                <div class="dialog">
+                    <p>I'm currently Pursuing B.Tech in CSE at RIET, Jaipur <a href="https://www.rietjaipur.ac.in/" target='_blank'>RIET, Jaipur</a>, but I'm always open to new opportunities that let me help as much as I can on other projects.</p>
+                    <p><strong>I can help with the following:</strong></p>
+                    <ul class="list-unstyled service-list">
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Back-end development with Python</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Front-end development with HTML5, CSS, JS (soon)</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Android Application development (soon)</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Web applications (soon)</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Coding in C and C++ </li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Uploading Your Code To GIthub</li>
+                    </ul>
+                    <p>Drop me a line at <a href="mailto:imvickykumar@gmail.com">imvickykumar999@gmail.com</a>, <a href="mailto:hellovickykumar123@gmail.com">hellovickykumar123@gmail.com</a> or call me at <a href="tel:+918239957923">+918239957923</a></p>
+                    <ul class="social list-inline">
+                            <li><a href="https://www.linkedin.com/in/vicky-kumar-433542190/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="https://twitter.com/Vickyku27424662"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCCCMOhooI8821rauAVZQwbA"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCWaXTlc-ECnQz4JHKg1KfAw"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.yourquote.in/vicky-kumar-bagzz/quotes"><i class="fa fa-quote-right" aria-hidden="true"></i></a></li> 
+                            <li><a href="https://www.sololearn.com/Profile/8044164/"><i class="fa fa-code" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.sololearn.com/Profile/12699769/"><i class="fa fa-terminal" aria-hidden="true"></i></a></li>
+                            <li><a href="https://github.com/imvickykumar999"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.instagram.com/imvickykumar999/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.facebook.com/Imvickykumar999/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.instagram.com/vickykumar2493/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="https://medium.com/@imvickykumar999"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
+                    </ul><!--//social-->
+                </div><!--//diaplog-->
+            </div><!--//intro-->
+
+        </section><!--//section-->
+
+    </div><!--//wrapper-->
+
+    <footer class="footer text-center">
+        <div class="container">
+            <small class="copyright">Copyright @ <a href="#">Vicky Kumar </a></small>
+        </div><!--//container-->
+    </footer>
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="{% static 'plugins/jquery-1.12.4.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'plugins/bootstrap/js/bootstrap.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'plugins/back-to-top.js' %}"></script>
+    <script type="text/javascript" src="{% static 'plugins/jquery-scrollTo/jquery.scrollTo.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'plugins/easy-pie-chart/src/easypiechart.js' %}"></script>
+    <script type="text/javascript" src="{% static 'plugins/easy-pie-chart/src/jquery.plugin.js' %}"></script>
+    <script type="text/javascript" src="{% static 'plugins/easy-pie-chart/src/renderer/canvas.js' %}"></script>
+    <script type="text/javascript" src="{% static 'plugins/imagesloaded.pkgd.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'plugins/isotope.pkgd.min.js' %}"></script>
+
+    <!-- custom js -->
+    <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+
+</body>
+</html>
