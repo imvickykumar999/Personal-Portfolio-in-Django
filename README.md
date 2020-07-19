@@ -1,6 +1,6 @@
 # Personal-Portfolio-in-Django : https://imvickykumar999.github.io/Personal-Portfolio-in-Django/
 
-LinkedIn Post : https://www.linkedin.com/feed/update/urn:li:ugcPost:6690227749170225152/
+LinkedIn Post : https://www.linkedin.com/posts/vicky-kumar-433542190_project-personal-portfolio-activity-6690301901252132864-i8ok
 --------------
 
 # My Personal Portfolio
